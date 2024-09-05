@@ -1,0 +1,15 @@
+; Optional Flake8 configuration for developers who apply flake8 linting.
+
+[flake8]
+
+; Remove E501 errors in long lines.
+; MLX does not adhere to the 79 character max length specified 
+; in https://peps.python.org/pep-0008/#maximum-line-length
+
+ignore = E501
+
+
+; Maximum line length.
+; Specify a custom maximum line length.
+
+; max-line-length = 88  ; uncomment to override default of 79
